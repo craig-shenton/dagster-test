@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+*.sqlite3
+
+# Dagster cache and temporary files
+dagster.yaml
+dagster_logs/
+dagster_tests/
+.tmp_dagster_home*/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# VSCode & PyCharm
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Data and output folders
+data/*.csv
+data/*.parquet
+outputs/
+*.log
+*.tmp
+
+# Test artifacts
+htmlcov/
+coverage.xml
+*.cover
+*.pytest_cache/
+.tox/
+
+# Environment/config
+.env
+.env.*
+*.bak
+*.swp
+*.old
+
+# PyInstaller
+build/
+dist/
+
+# Wheel / packaging
+*.whl
+
+# MyPy / Lint / Type Checking
+.mypy_cache/
+.pytype/
+.dmypy.json
+ruff_cache/
