@@ -29,7 +29,7 @@ dagster_tests/
 Thumbs.db
 
 # Data and output folders
-data/*.csv
+# data/*.csv commenting for sample project
 data/*.parquet
 outputs/
 *.log
