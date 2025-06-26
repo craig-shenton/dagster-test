@@ -18,7 +18,7 @@ dagster_tests/
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
+# *.ipynb
 
 # VSCode & PyCharm
 .vscode/
@@ -29,7 +29,7 @@ dagster_tests/
 Thumbs.db
 
 # Data and output folders
-# data/*.csv commenting for sample project
+data/*.csv
 data/*.parquet
 outputs/
 *.log

@@ -1,4 +1,4 @@
-from dagster_project.assets.raw_assets import employees
+from dagster_project.assets.synthetic_data import employees
 
 def test_employees_asset():
     df = employees()
